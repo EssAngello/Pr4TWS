@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3"
+     xml:base="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#tiene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#tiene">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#trabajaEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#trabajaEn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Editor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#UsuarioRegistrado"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#apellidos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#apellidos">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadaX -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadaX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadaY -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#coordenadaY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#correo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#correo">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#localidad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#localidad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombre">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombrecategoria -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombrecategoria">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombreempresa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombreempresa">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombreproducto -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#nombreproducto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#precio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#precio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#provincia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#provincia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#telefono -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#telefono"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#trabajaEn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#trabajaEn">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:Class rdf:about="http://schema.org/Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Editor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Editor">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Invitado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Invitado">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#UsuarioRegistrado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#UsuarioRegistrado">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- http://www.w3.org/2000/10/swap/pim/contact#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/10/swap/pim/contact#Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Point -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdfs:comment> 
+Uniquely identified by lat/long/alt. i.e.
+
+spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
+  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
+
+sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
+  </rdfs:comment>
+        <rdfs:comment>A point, typically described using a coordinate system relative to Earth, such as WGS84.
+  </rdfs:comment>
+        <rdfs:label>point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing">
+        <rdfs:comment>Anything with spatial extent, i.e. size, shape, or position.
+ e.g. people, places, bowling balls, as well as abstract areas like cubes.
+</rdfs:comment>
+        <rdfs:label>Spatial Thing</rdfs:label>
+        <rdfs:label>SpatialThing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineEcommerceAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+        <rdfs:comment>An online e-commerce account.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Online E-commerce Account</rdfs:label>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>An organization.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Organization</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:comment>A person.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label>Person</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Amancio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Amancio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#UsuarioRegistrado"/>
+        <untitled-ontology-3:trabajaEn rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Tienda"/>
+        <untitled-ontology-3:apellidos xml:lang="es">Ortega y Gasset</untitled-ontology-3:apellidos>
+        <untitled-ontology-3:correo xml:lang="es">amanciete@alumni.uv.es</untitled-ontology-3:correo>
+        <untitled-ontology-3:nombre xml:lang="es">Amancio</untitled-ontology-3:nombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Angello -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Angello">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Invitado"/>
+        <untitled-ontology-3:apellidos xml:lang="es">Herrera Mariluz</untitled-ontology-3:apellidos>
+        <untitled-ontology-3:correo xml:lang="es">anbracer@alumni.uv.es</untitled-ontology-3:correo>
+        <untitled-ontology-3:nombre xml:lang="es">Angello</untitled-ontology-3:nombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Localizacion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Localizacion">
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <untitled-ontology-3:coordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-213434</untitled-ontology-3:coordenadaX>
+        <untitled-ontology-3:coordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-3432234</untitled-ontology-3:coordenadaY>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria4"/>
+        <untitled-ontology-3:nombreproducto xml:lang="es">Toalla hecho con materiales reciclados</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria4"/>
+        <untitled-ontology-3:nombreproducto xml:lang="es">Jabon zero waste</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria2"/>
+        <untitled-ontology-3:nombreproducto xml:lang="es">Sudadera redes de pesca</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria1"/>
+        <untitled-ontology-3:nombreproducto>Pack higiene corporal zero waste</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria3"/>
+        <untitled-ontology-3:nombreproducto>Guante exfoliante</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Productos"/>
+        <untitled-ontology-3:categoria rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria1"/>
+        <untitled-ontology-3:nombreproducto>Muselina algodon organico limpieza facias</untitled-ontology-3:nombreproducto>
+        <untitled-ontology-3:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</untitled-ontology-3:precio>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Profesor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Profesor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Editor"/>
+        <untitled-ontology-3:trabajaEn rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Tienda"/>
+        <untitled-ontology-3:apellidos xml:lang="es">Samper Zapater</untitled-ontology-3:apellidos>
+        <untitled-ontology-3:correo xml:lang="es">fbarber@uv.es</untitled-ontology-3:correo>
+        <untitled-ontology-3:nombre xml:lang="es">Oscar David</untitled-ontology-3:nombre>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Tienda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Tienda">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Localizacion"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto1"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto2"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto3"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto4"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto5"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Producto6"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria1"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria2"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria3"/>
+        <untitled-ontology-3:tiene rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria4"/>
+        <untitled-ontology-3:coordenadaX>222a</untitled-ontology-3:coordenadaX>
+        <untitled-ontology-3:coordenadaY>222b</untitled-ontology-3:coordenadaY>
+        <untitled-ontology-3:nombreempresa>Tu Estilo de Vida Saludable</untitled-ontology-3:nombreempresa>
+        <untitled-ontology-3:telefono>+34 987 654 321</untitled-ontology-3:telefono>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+        <untitled-ontology-3:nombrecategoria xml:lang="es">Clases online</untitled-ontology-3:nombrecategoria>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+        <untitled-ontology-3:nombrecategoria xml:lang="es">Moda</untitled-ontology-3:nombrecategoria>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+        <untitled-ontology-3:nombrecategoria xml:lang="es">Libros</untitled-ontology-3:nombrecategoria>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#categoria4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aange/ontologies/2021/11/untitled-ontology-3#Categorias"/>
+        <untitled-ontology-3:nombrecategoria xml:lang="es">Belleza y Cuidado Personal</untitled-ontology-3:nombrecategoria>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
